@@ -37,23 +37,30 @@
 
 |   Concept   |         Description or short answer         |
 |     ---     |                     ---                     |
-|What is the purpose of having different environments?     |(enter description or short answer here)|
-|What is the default package manager in Python?            |(enter description or short answer here)|
-|How do you manage environments and packages in Anaconda?  |(enter description or short answer here)|
-|`conda list`       |(enter description or short answer here)|
-|`conda env list`       |(enter description or short answer here)|
-|How do you keep your base environment unchanged?       |(enter description or short answer here)|
-|What is the link to the Conda cheat sheet? (link in video notes is broken)      |(enter description or short answer here)|
-|`conda create --name XXXX`       |(enter description or short answer here)|
-|`source activate XXXX`       |(enter description or short answer here)|
-|`conda install YYYY`       |(enter description or short answer here)|
-|channels in Conda       |(enter description or short answer here)|
-|`conda install -c ZZZZ YYYY`       |(enter description or short answer here)|
-|`conda config --show channels`       |(enter description or short answer here)|
-|`conda config --add channels ZZZZ`       |(enter description or short answer here)|
-|conda-forge.org       |(enter description or short answer here)|
-|`source deactivate`       |(enter description or short answer here)|
-|`conda config --get channels`       |(enter description or short answer here)|
+|What is the purpose of having different environments?     |(Purpose-Simplifies and easy managing dependencies between multiple jobs with with different isolated workstream/Projects)|
+|What is the default package manager in Python?            |(pip)|
+|How do you manage environments and packages in Anaconda?  |(we can manage environments and packages in                                                               Anaconda using windows ternimal or using                                                                 Anaconda prompt terminal
+                                                            *conda env create -f environment. yml
+															                                             *conda activate myenv
+															                                             *conda env list)|
+|`conda list`       |(List all the packages in environment at C:\Users\binod\Anaconda3)|
+|`conda env list`   |(List all the environments
+                         # conda environments:
+                         #
+				                     base *  C:\Users\binod\Anaconda3
+                         Test    C:\Users\binod\Anaconda3\envs\Test)|
+|How do you keep your base environment unchanged?       |(Run deactive conda command from base                                                                    environment)|
+|What is the link to the Conda cheat sheet? (link in video notes is broken)      |(https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)|
+|`conda create --name XXXX`       |(Command to create the XXXX Environment)|
+|`source activate XXXX`       |(Command to activate the XXXX Environment)|
+|`conda install YYYY`       |(Command to install YYYY named package in XXXX Environment in Conda)|
+|channels in Conda       |(Channels holds the packages in conda which are not default channels)|
+|`conda install -c ZZZZ YYYY`       |(Command to install YYYY package in ZZZZ channel in Conda)|
+|`conda config --show channels`       |(Show all the channels available in Environment)|
+|`conda config --add channels ZZZZ`       |(Adds channel named ZZZZ in Environment in Conda)|
+|conda-forge.org       |(It's web appllication led by community with collection of recipes and build                             infracture and distributions for the conda package manager)|
+|`source deactivate`       |(This command will take us to default/base channel)|
+|`conda config --get channels`       |(This command in Conda will let us know the piority of packages avilable in channels,i.e higher piority channels gets more piority during installation of same version of packages and vice-versa)|
 
 * After creating the environments he created in the video on your computer, what would the results of running the command `conda env list` look like with the da35 environment activated. Paste the output from your command prompt in the code block below.
 
