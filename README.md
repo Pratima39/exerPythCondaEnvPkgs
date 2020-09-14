@@ -37,17 +37,17 @@
 
 |   Concept   |         Description or short answer         |
 |     ---     |                     ---                     |
-|What is the purpose of having different environments?     |(Purpose-Simplifies and easy managing                             dependencies between multiple jobs with with different isolated workstream/Projects)|
+|What is the purpose of having different environments?     |(Purpose-Simplifies and easy managing dependencies between multiple jobs with with different isolated workstream/Projects)|
 |What is the default package manager in Python?            |(pip)|
-|How do you manage environments and packages in Anaconda?  |(we can manage environments and packages in                                        Anaconda using windows ternimal or using Anaconda prompt terminal
+|How do you manage environments and packages in Anaconda?  |(we can manage environments and packages in Anaconda using windows ternimal or using Anaconda prompt terminal
                  conda env create -f environment. yml.
-															  conda activate myenv.
-															  conda env list)|
+		 conda activate myenv.
+		 conda env list)|
 |`conda list`       |(List all the packages in environment at C:\Users\binod\Anaconda3)|
 |`conda env list`       |(List all the environments
                  # conda environments:
                  #
-				             base *  C:\Users\binod\Anaconda3
+		 base *  C:\Users\binod\Anaconda3
                  Test    C:\Users\binod\Anaconda3\envs\Test)|
 |How do you keep your base environment unchanged?       |(Run deactive conda command from base                                                                       environment)|
 |What is the link to the Conda cheat sheet? (link in video notes is broken)      |(https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)|
@@ -58,7 +58,7 @@
 |`conda install -c ZZZZ YYYY`       |(Command to install YYYY package in ZZZZ channelin Conda)|
 |`conda config --show channels`       |(Command to show all the channels available in Environment)|
 |`conda config --add channels ZZZZ`       |(command to add channel named ZZZZ in Environment in Conda)|
-|conda-forge.org       |(It's web appllication led by community with collection of recipes and build                               infracture and distributions for the conda package manager)|
+|conda-forge.org       |(It's web appllication led by community with collection of recipes and build infracture and distributions for the conda package manager)|
 |`source deactivate`       |(This command will take us to default/base channel)|
 |`conda config --get channels`       |(This command in Conda will let us know the piority of packages avilable in channels,i.e higher piority channels gets more piority during installation of same version of packages and vice-versa)|
 
